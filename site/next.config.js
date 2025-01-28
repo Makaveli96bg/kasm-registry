@@ -1,20 +1,14 @@
 /** @type {import('next').NextConfig} */
-
 const nextConfig = {
-  env: {
-    name: 'Vesko Kasm regustry',
-    description: 'The custom store for Kasm supported workspaces.',
-    icon: 'https://github.com/Makaveli96bg/kasm-registry/1.0/icon.png',
-    listUrl: 'https://github.com/Makaveli96bg/kasm-registry/',
-    contactUrl: 'https://github.com/Makaveli96bg/kasm-registry/issues',
-  },
   reactStrictMode: true,
-  swcMinify: true,
-  basePath: '/kasm-registry/1.0',
-  trailingSlash: true,
-  images: {
-    unoptimized: true,
-  }
-}
+  env: {
+    name: "Makaveli96bg's Kasm Registry",
+    description: "A custom registry for Kasm workspaces.",
+    icon: "https://github.com/Makaveli96bg.png",  // You can change this to a custom logo URL
+    listUrl: "https://makaveli96bg.github.io/kasm-registry/",  // This is your GitHub Pages link
+    contactUrl: "https://github.com/Makaveli96bg/kasm-registry/issues",
+  },
+  basePath: "/kasm-registry/1.0",
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
