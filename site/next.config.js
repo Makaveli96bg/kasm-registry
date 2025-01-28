@@ -4,9 +4,9 @@ const nextConfig = {
   env: {
     name: 'Vesko Kasm regustry',
     description: 'The custom store for Kasm supported workspaces.',
-    icon: '/img/logo.svg',
-    listUrl: 'https://github.com/Makaveli96bg/kasm-registry',
-    contactUrl: 'https://github.com/Makaveli96bg/kasm-registry',
+    icon: 'https://github.com/Makaveli96bg/kasm-registry/1.0/icon.png',
+    listUrl: 'https://github.com/Makaveli96bg/kasm-registry/',
+    contactUrl: 'https://github.com/Makaveli96bg/kasm-registry/issues',
   },
   reactStrictMode: true,
   swcMinify: true,
